@@ -171,3 +171,5 @@ This project is open-source and available under the **MIT License**.
 ---
 
 > “Strong fundamentals build strong engineers.”
+
+By HARSH WARDHAN @2026
