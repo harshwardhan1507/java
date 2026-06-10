@@ -21,6 +21,8 @@ It emphasizes:
 
 📈 Designed as a **stepping stone before Data Structures & Algorithms (DSA)**.
 
+Souces : BroCode 12hr java course, W3schools, HyperSkill by jetbrains
+IDE used : Jetbrains idea intelliJ IEDA
 ---
 
 ## 🚀 Live Learning Path
