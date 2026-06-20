@@ -1,175 +1,122 @@
-# ☕ Java Fundamentals & Practice
+# ☕ Java Knowledge Base
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java" />
-  <img src="https://img.shields.io/badge/Level-Beginner_to_Intermediate-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-OOP%20%7C%20Core%20Java-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Level-Beginner_to_Advanced-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-OOP%20%7C%20Fundamentals%20%7C%20DSA-green?style=for-the-badge" />
 </p>
-
-
 
 ---
 
 ## 📌 Overview
 
-This repository is a **structured collection of Java programs** aimed at building a **strong foundation in core programming concepts**.
+Welcome to the **Java Knowledge Base**! This repository is a structured, production-grade learning index documenting core Java programming concepts, from basic syntax up to advanced thread concurrency, object-oriented design, and interactive mini-projects.
 
-It emphasizes:
-- Clean syntax understanding
-- Object-Oriented Programming (OOP)
-- Practical implementation of concepts
-
-📈 Designed as a **stepping stone before Data Structures & Algorithms (DSA)**.
+It is structured to serve as an **educational guide** and reference directory for beginners pursuing a strong coding foundation before moving into Data Structures & Algorithms (DSA) and enterprise web development (Spring Boot).
 
 ---
 
 ## 🚀 Live Learning Path
 
 ```mermaid
-graph LR
-A[Java Basics] --> B[Control Flow]
-B --> C[Methods & Recursion]
-C --> D[OOP Concepts]
-D --> E[Collections & File Handling]
-E --> F[DSA Preparation]
+graph TD
+    A[Core Basics: Var, Math, Input] --> B[Control Flow & Loops]
+    B --> C[Methods & Arrays]
+    C --> D[Object-Oriented Programming OOP]
+    D --> E[Inheritance, Abstraction & Polymorphism]
+    E --> F[Encapsulation & Relationships]
+    F --> G[Collections, Wrappers & Exceptions]
+    G --> H[Advanced Basics: Generics, Concurrency, Files]
+    H --> I[DSA & Spring Boot Prep]
 ```
 
 ---
 
-## 📂 Topics Covered
+## 📂 Repository Directory Layout
 
-### 🔹 Core Java
-- Variables & Data Types
-- Operators & Expressions
+All files are structured inside the standard Java package: `com.harshwardhan.fundamentals.*`.
 
-### 🔹 Control Flow
-- `if / else`
-- `switch`
-- Loops (`for`, `while`, `do-while`)
-
-### 🔹 Methods & Recursion
-- Modular programming
-- Recursive logic building
-
-### 🔹 Object-Oriented Programming
-- Classes & Objects
-- Inheritance
-- Polymorphism
-- Encapsulation
-- Abstraction
-
-### 🔹 Data Structures (Basic)
-- Arrays
-- Strings
-
-### 🔹 Advanced Core
-- Exception Handling
-- Collections (`ArrayList`, `HashMap`)
-- File I/O
-
-### 🔹 Practice Layer
-- Mini programs for concept reinforcement
-
----
-
-## 🎯 Objective
-
-✔ Build **strong programming fundamentals**  
-✔ Master **Java syntax & OOP principles**  
-✔ Prepare for **DSA & technical interviews**  
-✔ Write **clean and maintainable code**
+```text
+java-knowledge-base/
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+└── src/
+    └── com/
+        └── harshwardhan/
+            └── fundamentals/
+                ├── fundamentals/       # Variables, User Input, Arithmetic, Printf
+                ├── decisionmaking/     # If-Else, Switch, Logical Operators
+                ├── iteration/          # Loops (While, For, Nested, Break/Continue)
+                ├── methods/            # Methods, Overloading, Scope, Varargs
+                ├── arrays/             # 1D, 2D Arrays, User Input, Linear Search
+                ├── strings/            # String manipulation, Substring routines
+                ├── objectoriented/     # Classes, Objects, Constructors, Statics
+                ├── inheritance/        # Subclassing, Super, Overriding
+                ├── abstraction/        # Abstract classes, Interfaces, Polymorphism
+                ├── encapsulation/      # Getters, Setters, Data hiding
+                ├── relationships/      # Aggregation and Composition
+                ├── collections/        # ArrayList, HashMap, Wrapper classes
+                ├── exceptions/         # Try-catch, throw, custom exceptions
+                ├── filehandling/       # Read and Write file streams
+                ├── generics/           # Generic classes and methods
+                ├── datetime/           # Local Date Time APIs, Enum classes
+                ├── concurrency/        # Multi-threading, Timers
+                └── projects/
+                    ├── beginner/       # Simple CLI calculators and utility tools
+                    ├── intermediate/   # Complex CLI projects (e.g., Vending Machine)
+                    └── advanced/       # Threaded, file-stored programs
+```
 
 ---
 
-## 🛠 Tech Stack
-
-| Category | Tools |
-|--------|------|
-| Language | Java |
-| JDK | 17+ |
-| IDE | IntelliJ / VS Code / Eclipse |
-| Version Control | Git & GitHub |
-
----
-
-## ⚙️ Getting Started
+## ⚙️ Getting Started & Run Instructions
 
 ### 📥 Prerequisites
-- Install **JDK 17 or above**
-- Set up environment variables (`JAVA_HOME`)
+* Install **JDK 17 or above**.
+* Set up your `JAVA_HOME` environment variables.
 
-### ▶️ Run Locally
+### ▶️ Compiling & Running Packaged Java Code
+Because this repository is organized using professional Java packages, compilation and execution require package-aware paths.
 
+#### 1. Compile Code to an Output Folder
+Navigate to the root directory of the repository (`java-knowledge-base/`) and use `-d` to specify the output target:
 ```bash
-# Clone the repository
-git clone https://github.com/harshwardhan1507/java-practice.git
+# Compile a specific class
+javac -d out src/com/harshwardhan/fundamentals/objectoriented/Ex1.java
 
-# Navigate into the directory
-cd java-practice
+# Compile all source files
+javac -d out src/com/harshwardhan/fundamentals/**/*.java
+```
 
-# Compile
-javac FileName.java
-
-# Run
-java FileName
+#### 2. Run with Classpath Root
+Run the class using its fully qualified name from the directory containing the compiled `.class` files (`out`):
+```bash
+# Run using the -cp (classpath) argument
+java -cp out com.harshwardhan.fundamentals.objectoriented.Ex1
 ```
 
 ---
 
-## 📊 Repository Stats
+## 🏆 Current Project Highlights
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=harshwardhan1507&show_icons=true&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=harshwardhan1507&theme=tokyonight" />
-</p>
-
----
-
-## 🔗 Related Work
-
-| Repository | Description |
-|------------|------------|
-| [LeetCode Solutions](https://github.com/harshwardhan1507/leetcode) | DSA problems & coding interview prep in Java |
+| Project Name | Path | Level | Description |
+| :--- | :--- | :--- | :--- |
+| **Compound Interest Calculator** | [CompInterest.java](file:///d:/Programming/oopspractise/src/com/harshwardhan/fundamentals/projects/beginner/CompInterest.java) | Beginner | Computes compound interest given principal, rate, times compounded, and term length. |
+| **Car Demo (OOP Practice)** | [Ex1.java](file:///d:/Programming/oopspractise/src/com/harshwardhan/fundamentals/objectoriented/Ex1.java) | Beginner | Introduction to basic encapsulation, class instantiation, instantiation states, and methods. |
+| **Console Vending Machine** | [VendingMachine.java](file:///d:/Programming/oopspractise/src/com/harshwardhan/fundamentals/projects/intermediate/VendingMachine.java) | Intermediate | A complete transaction engine simulating products, cart accumulation, stock updates, and change payout. |
 
 ---
 
 ## 👨‍💻 Author
 
 **Harshwardhan**
-
-- GitHub: https://github.com/harshwardhan1507
-- Focus: Java • DSA • Problem Solving
-
----
-
-## 🌱 Future Improvements
-
-- Advanced Java concepts (Multithreading, Streams)
-- Structured problem sets
-- Performance optimization examples
-- Integration with DSA patterns
+* GitHub: [@harshwardhan1507](https://github.com/harshwardhan1507)
+* Focus: Core Java • Software Architecture • DSA
 
 ---
 
-## ⭐ Support
+## ⭐ Support & Contributions
 
-If you found this helpful:
-
-- ⭐ Star the repository
-- 🍴 Fork it
-- 🛠 Contribute or suggest improvements
-
----
-
-## 📜 License
-
-This project is open-source and available under the **MIT License**.
-
----
-
-> “Strong fundamentals build strong engineers.”
-
-By HARSH WARDHAN @2026
+If you find this repository helpful, consider starring the repository ⭐ or submitting a pull request to add more concepts or practice exercises!

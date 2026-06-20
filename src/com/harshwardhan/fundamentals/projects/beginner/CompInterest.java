@@ -1,3 +1,5 @@
+package com.harshwardhan.fundamentals.projects.beginner;
+
 import java.util.Scanner;
 public class CompInterest {
     public static void main(String[] args) {
