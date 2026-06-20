@@ -30,7 +30,7 @@ class Car {
     }
 }
 
-public class Ex1 {
+public class ClassesAndObjects {
 
     public static void main(String[] args) {
 

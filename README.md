@@ -84,7 +84,7 @@ Because this repository is organized using professional Java packages, compilati
 Navigate to the root directory of the repository (`java-knowledge-base/`) and use `-d` to specify the output target:
 ```bash
 # Compile a specific class
-javac -d out src/com/harshwardhan/fundamentals/objectoriented/Ex1.java
+javac -d out src/com/harshwardhan/fundamentals/objectoriented/ClassesAndObjects.java
 
 # Compile all source files
 javac -d out src/com/harshwardhan/fundamentals/**/*.java
@@ -94,7 +94,7 @@ javac -d out src/com/harshwardhan/fundamentals/**/*.java
 Run the class using its fully qualified name from the directory containing the compiled `.class` files (`out`):
 ```bash
 # Run using the -cp (classpath) argument
-java -cp out com.harshwardhan.fundamentals.objectoriented.Ex1
+java -cp out com.harshwardhan.fundamentals.objectoriented.ClassesAndObjects
 ```
 
 ---
@@ -104,7 +104,7 @@ java -cp out com.harshwardhan.fundamentals.objectoriented.Ex1
 | Project Name | Path | Level | Description |
 | :--- | :--- | :--- | :--- |
 | **Compound Interest Calculator** | [CompInterest.java](file:///d:/Programming/oopspractise/src/com/harshwardhan/fundamentals/projects/beginner/CompInterest.java) | Beginner | Computes compound interest given principal, rate, times compounded, and term length. |
-| **Car Demo (OOP Practice)** | [Ex1.java](file:///d:/Programming/oopspractise/src/com/harshwardhan/fundamentals/objectoriented/Ex1.java) | Beginner | Introduction to basic encapsulation, class instantiation, instantiation states, and methods. |
+| **Car Demo (OOP Practice)** | [ClassesAndObjects.java](file:///d:/Programming/oopspractise/src/com/harshwardhan/fundamentals/objectoriented/ClassesAndObjects.java) | Beginner | Introduction to basic encapsulation, class instantiation, instantiation states, and methods. |
 | **Console Vending Machine** | [VendingMachine.java](file:///d:/Programming/oopspractise/src/com/harshwardhan/fundamentals/projects/intermediate/VendingMachine.java) | Intermediate | A complete transaction engine simulating products, cart accumulation, stock updates, and change payout. |
 
 ---
