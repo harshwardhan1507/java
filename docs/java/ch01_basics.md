@@ -8,7 +8,7 @@ Think of it like learning the alphabet before writing sentences. Variables are y
 
 ---
 
-## 1. `HelloWorld.java` — Program Structure
+## 1. [HelloWorld.java](../../src/javakb/ch01_basics/HelloWorld.java) — Program Structure
 
 **Concept:** Every Java program needs an entry point — the JVM looks for exactly one method to start running: `public static void main(String[] args)`. Nothing executes outside of it (directly).
 
@@ -27,7 +27,7 @@ public class HelloWorld {
 
 ---
 
-## 2. `VariablesAndDataTypes.java` — Storing Data
+## 2. [VariablesAndDataTypes.java](../../src/javakb/ch01_basics/VariablesAndDataTypes.java) — Storing Data
 
 **Concept:** A variable is a named, typed container. The type tells Java how much memory to reserve and what operations are valid on it.
 
@@ -67,7 +67,7 @@ float num = 3.14f;  // correct
 
 ---
 
-## 3. `UserInput.java` — Talking to the User
+## 3. [UserInput.java](../../src/javakb/ch01_basics/UserInput.java) — Talking to the User
 
 **Concept:** Programs that only print fixed text aren't very useful. `Scanner` reads what the user types from the keyboard (`System.in`) and converts it into usable data.
 
@@ -102,7 +102,7 @@ String name = scanner.nextLine(); // now this actually waits for real input
 
 ---
 
-## 4. `ArithmeticOperations.java` — Doing Math
+## 4. [ArithmeticOperations.java](../../src/javakb/ch01_basics/ArithmeticOperations.java) — Doing Math
 
 **Concept:** Standard arithmetic, plus one operator beginners haven't seen before school-level math: modulus.
 
@@ -137,7 +137,7 @@ Integer division by zero throws `ArithmeticException` and crashes the program (u
 
 ---
 
-## 5. `MathClassDemo.java` — Built-in Math Helpers
+## 5. [MathClassDemo.java](../../src/javakb/ch01_basics/MathClassDemo.java) — Built-in Math Helpers
 
 **Concept:** `Math` is a utility class — you never create a `Math` object, you just call its methods directly using the class name, because every method is `static`.
 
@@ -167,7 +167,7 @@ Output:
 
 ---
 
-## 6. `PrintfFormatting.java` — Clean Output
+## 6. [PrintfFormatting.java](../../src/javakb/ch01_basics/PrintfFormatting.java) — Clean Output
 
 **Concept:** `println` concatenation gets messy fast when mixing types. `printf` uses **format specifiers** as placeholders, keeping the template readable.
 
@@ -221,7 +221,7 @@ CGPA: 8.95
 
 ## Mini Project
 
-**`CompoundInterestCalculator.java`**
+**[CompoundInterestCalculator.java](../../src/javakb/projects/beginner/CompInterest.java)**
 
 Combines everything in this chapter into one practical program:
 
@@ -232,4 +232,4 @@ Combines everything in this chapter into one practical program:
 
 This is intentionally the first project where none of the pieces are new — the skill being tested is **combining** them correctly, not learning new syntax.
 
-for code this project refer to projects beginner folder
+For the code of this project, refer to the [beginner project folder](../../src/javakb/projects/beginner/CompInterest.java).

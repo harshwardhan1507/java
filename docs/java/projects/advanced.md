@@ -1,3 +1,3 @@
-# advanced
+# Advanced Projects
 
-Concept notes and practice exercises for this module will be documented here.
+- [advanced/](../../../src/javakb/projects/advanced) — Placeholder directory for future threaded file-storage projects.

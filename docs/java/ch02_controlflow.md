@@ -8,7 +8,7 @@ Every decision in Java eventually boils down to one question: **is this boolean 
 
 ---
 
-## 1. `IfStatement.java` — The Basic Decision
+## 1. [IfStatement.java](../../src/javakb/ch02_controlflow/IfStatement.java) — The Basic Decision
 
 **Concept:** Run a block of code only if a condition is `true`. If it's `false`, skip the block entirely — nothing else happens.
 
@@ -33,7 +33,7 @@ if (age >= 18) {
 
 ---
 
-## 2. `IfElseStatement.java` — Two Paths
+## 2. [IfElseStatement.java](../../src/javakb/ch02_controlflow/IfElseStatement.java) — Two Paths
 
 **Concept:** `if` alone only handles the "true" case. `else` gives you the "false" case — exactly one of the two blocks runs, never both, never neither.
 
@@ -51,7 +51,7 @@ if (marks >= 50) {
 
 ---
 
-## 3. `ElseIfLadder.java` — Multiple Conditions
+## 3. [ElseIfLadder.java](../../src/javakb/ch02_controlflow/ElseIfLadder.java) — Multiple Conditions
 
 **Concept:** When you have more than two possible outcomes, you chain conditions with `else if`. Java checks them **top to bottom** and stops at the first one that's `true` — it never checks the rest, even if they'd also be true.
 
@@ -79,7 +79,7 @@ Grade A
 
 ---
 
-## 4. `NestedIf.java` — Decisions Inside Decisions
+## 4. [NestedIf.java](../../src/javakb/ch02_controlflow/NestedIf.java) — Decisions Inside Decisions
 
 **Concept:** Sometimes a decision only makes sense _after_ another decision is already true. You put an `if` inside another `if`'s block.
 
@@ -100,7 +100,7 @@ if (age >= 18) {
 
 ---
 
-## 5. `SwitchStatement.java` — Traditional Switch
+## 5. [SwitchStatement.java](../../src/javakb/ch02_controlflow/SwitchStatement.java) — Traditional Switch
 
 **Concept:** When you're checking the _same variable_ against many possible exact values, an `else-if` ladder gets repetitive. `switch` is built for exactly this case — match a value, run the matching block.
 
@@ -134,7 +134,7 @@ Wednesday
 
 ---
 
-## 6. `SwitchExpression.java` — Modern Switch (Java 14+)
+## 6. [SwitchExpression.java](../../src/javakb/ch02_controlflow/SwitchExpression.java) — Modern Switch (Java 14+)
 
 **Concept:** The arrow (`->`) syntax fixes the fall-through problem entirely — each case is isolated, no `break` needed, and it can directly **return a value**, so you can assign a switch directly to a variable.
 
@@ -153,7 +153,7 @@ String result = switch (day) {
 
 ---
 
-## 7. `TernaryOperator.java` — Shorthand if-else
+## 7. [TernaryOperator.java](../../src/javakb/ch02_controlflow/TernaryOperator.java) — Shorthand if-else
 
 **Concept:** When an `if-else` exists purely to decide _what value to assign_, the ternary operator compresses it to one line.
 
@@ -178,7 +178,7 @@ if (age >= 18) {
 
 ---
 
-## 8. `LogicalOperators.java` — Combining Conditions
+## 8. [LogicalOperators.java](../../src/javakb/ch02_controlflow/LogicalOperators.java) — Combining Conditions
 
 **Concept:** Real decisions often depend on more than one fact at once. Logical operators combine boolean expressions into a single condition.
 

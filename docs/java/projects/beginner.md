@@ -1,3 +1,4 @@
-# beginner
+# Beginner Projects
 
-Concept notes and practice exercises for this module will be documented here.
+## Compound Interest Calculator
+- [CompInterest.java](../../../src/javakb/projects/beginner/CompInterest.java) — Console application to calculate compound interest based on user inputs.
