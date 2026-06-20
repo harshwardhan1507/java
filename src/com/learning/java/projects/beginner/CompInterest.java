@@ -1,4 +1,4 @@
-package com.harshwardhan.fundamentals.projects.beginner;
+package com.learning.java.projects.beginner;
 
 import java.util.Scanner;
 public class CompInterest {

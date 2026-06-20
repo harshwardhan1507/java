@@ -34,7 +34,7 @@ graph TD
 
 ## 📂 Repository Directory Layout
 
-All files are structured inside the standard Java package: `com.harshwardhan.fundamentals.*`.
+All files are structured inside the standard Java package: `com.learning.java.*`.
 
 ```text
 java-knowledge-base/
@@ -44,29 +44,29 @@ java-knowledge-base/
 │
 └── src/
     └── com/
-        └── harshwardhan/
-            └── fundamentals/
-                ├── fundamentals/       # Variables, User Input, Arithmetic, Printf
-                ├── decisionmaking/     # If-Else, Switch, Logical Operators
-                ├── iteration/          # Loops (While, For, Nested, Break/Continue)
-                ├── methods/            # Methods, Overloading, Scope, Varargs
-                ├── arrays/             # 1D, 2D Arrays, User Input, Linear Search
-                ├── strings/            # String manipulation, Substring routines
-                ├── objectoriented/     # Classes, Objects, Constructors, Statics
-                ├── inheritance/        # Subclassing, Super, Overriding
-                ├── abstraction/        # Abstract classes, Interfaces, Polymorphism
-                ├── encapsulation/      # Getters, Setters, Data hiding
-                ├── relationships/      # Aggregation and Composition
-                ├── collections/        # ArrayList, HashMap, Wrapper classes
-                ├── exceptions/         # Try-catch, throw, custom exceptions
-                ├── filehandling/       # Read and Write file streams
-                ├── generics/           # Generic classes and methods
-                ├── datetime/           # Local Date Time APIs, Enum classes
-                ├── concurrency/        # Multi-threading, Timers
+        └── learning/
+            └── java/
+                ├── ch01_basics/       # Variables, User Input, Arithmetic, Printf
+                ├── ch02_controlflow/  # If-Else, Switch, Logical Operators
+                ├── ch03_loops/        # Loops (While, For, Nested, Break/Continue)
+                ├── ch04_methods/      # Methods, Overloading, Scope, Varargs
+                ├── ch05_arrays/       # 1D, 2D Arrays, User Input, Linear Search
+                ├── ch06_strings/      # String manipulation, Substring routines
+                ├── ch07_oop/          # Classes, Objects, Constructors, Statics
+                ├── ch08_inheritance/  # Subclassing, Super, Overriding
+                ├── ch09_abstraction/  # Abstract classes, Interfaces, Polymorphism
+                ├── ch10_encapsulation/# Getters, Setters, Data hiding
+                ├── ch11_relationships/# Aggregation and Composition
+                ├── ch12_collections/  # ArrayList, HashMap, Wrapper classes
+                ├── ch13_exceptions/   # Try-catch, throw, custom exceptions
+                ├── ch14_filehandling/ # Read and Write file streams
+                ├── ch15_generics/     # Generic classes and methods
+                ├── ch16_enumsdates/   # Local Date Time APIs, Enum classes
+                ├── ch17_concurrency/  # Multi-threading, Timers
                 └── projects/
-                    ├── beginner/       # Simple CLI calculators and utility tools
-                    ├── intermediate/   # Complex CLI projects (e.g., Vending Machine)
-                    └── advanced/       # Threaded, file-stored programs
+                    ├── beginner/      # Simple CLI calculators and utility tools
+                    ├── intermediate/  # Complex CLI projects (e.g., Vending Machine)
+                    └── advanced/      # Threaded, file-stored programs
 ```
 
 ---
@@ -84,17 +84,17 @@ Because this repository is organized using professional Java packages, compilati
 Navigate to the root directory of the repository (`java-knowledge-base/`) and use `-d` to specify the output target:
 ```bash
 # Compile a specific class
-javac -d out src/com/harshwardhan/fundamentals/objectoriented/ClassesAndObjects.java
+javac -d out src/com/learning/java/ch07_oop/ClassesAndObjects.java
 
 # Compile all source files
-javac -d out src/com/harshwardhan/fundamentals/**/*.java
+javac -d out src/com/learning/java/**/*.java
 ```
 
 #### 2. Run with Classpath Root
 Run the class using its fully qualified name from the directory containing the compiled `.class` files (`out`):
 ```bash
 # Run using the -cp (classpath) argument
-java -cp out com.harshwardhan.fundamentals.objectoriented.ClassesAndObjects
+java -cp out com.learning.java.ch07_oop.ClassesAndObjects
 ```
 
 ---
@@ -103,9 +103,9 @@ java -cp out com.harshwardhan.fundamentals.objectoriented.ClassesAndObjects
 
 | Project Name | Path | Level | Description |
 | :--- | :--- | :--- | :--- |
-| **Compound Interest Calculator** | [CompInterest.java](file:///d:/Programming/oopspractise/src/com/harshwardhan/fundamentals/projects/beginner/CompInterest.java) | Beginner | Computes compound interest given principal, rate, times compounded, and term length. |
-| **Car Demo (OOP Practice)** | [ClassesAndObjects.java](file:///d:/Programming/oopspractise/src/com/harshwardhan/fundamentals/objectoriented/ClassesAndObjects.java) | Beginner | Introduction to basic encapsulation, class instantiation, instantiation states, and methods. |
-| **Console Vending Machine** | [VendingMachine.java](file:///d:/Programming/oopspractise/src/com/harshwardhan/fundamentals/projects/intermediate/VendingMachine.java) | Intermediate | A complete transaction engine simulating products, cart accumulation, stock updates, and change payout. |
+| **Compound Interest Calculator** | [CompInterest.java](file:///d:/Programming/oopspractise/src/com/learning/java/projects/beginner/CompInterest.java) | Beginner | Computes compound interest given principal, rate, times compounded, and term length. |
+| **Car Demo (OOP Practice)** | [ClassesAndObjects.java](file:///d:/Programming/oopspractise/src/com/learning/java/ch07_oop/ClassesAndObjects.java) | Beginner | Introduction to basic encapsulation, class instantiation, instantiation states, and methods. |
+| **Console Vending Machine** | [VendingMachine.java](file:///d:/Programming/oopspractise/src/com/learning/java/projects/intermediate/VendingMachine.java) | Intermediate | A complete transaction engine simulating products, cart accumulation, stock updates, and change payout. |
 
 ---
 

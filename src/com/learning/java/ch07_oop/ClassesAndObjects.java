@@ -1,4 +1,4 @@
-package com.harshwardhan.fundamentals.objectoriented;
+package com.learning.java.ch07_oop;
 
 class Car {
 
