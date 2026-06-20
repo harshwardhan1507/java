@@ -160,7 +160,7 @@ END OF DOCUMENTATION
 
 import java.util.Scanner;
 
-class vendingMachine {
+public class VendingMachine {
 
 
     static double amt = 0;

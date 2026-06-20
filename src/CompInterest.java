@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class  compInterest {
+public class CompInterest {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the principal amount");
