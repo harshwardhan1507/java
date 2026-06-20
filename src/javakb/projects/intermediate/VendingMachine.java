@@ -157,7 +157,7 @@ END OF DOCUMENTATION
 ====================
 
 */
-package com.learning.java.projects.intermediate;
+package javakb.projects.intermediate;
 
 import java.util.Scanner;
 

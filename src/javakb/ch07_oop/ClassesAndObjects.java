@@ -1,4 +1,4 @@
-package com.learning.java.ch07_oop;
+package javakb.ch07_oop;
 
 class Car {
 
