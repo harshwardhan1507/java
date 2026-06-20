@@ -50,16 +50,16 @@ All documentation is stored inside the `docs/` folder to keep the source tree cl
 | Chapter | Topic | Concept Notes | Code Folder | Status |
 | :--- | :--- | :--- | :--- | :---: |
 | **ch01** | Java Basics (Syntax, Printf, Input) | [Notes](docs/java/ch01_basics.md) | [Code](src/javakb/ch01_basics) | `[x]` |
-| **ch02** | Control Flow (If-Else, Switch) | [Notes](docs/java/ch02_controlflow.md) | [Code](src/javakb/ch02_controlflow) | `[x]` |
-| **ch03** | Loops (While, For, Nested) | [Notes](docs/java/ch03_loops.md) | [Code](src/javakb/ch03_loops) | `[x]` |
-| **ch04** | Methods (Scope, Overloading, Varargs) | [Notes](docs/java/ch04_methods.md) | [Code](src/javakb/ch04_methods) | `[x]` |
-| **ch05** | Arrays (1D, 2D, Linear Search) | [Notes](docs/java/ch05_arrays.md) | [Code](src/javakb/ch05_arrays) | `[x]` |
-| **ch06** | Strings (Manipulation, Builders) | [Notes](docs/java/ch06_strings.md) | [Code](src/javakb/ch06_strings) | `[x]` |
-| **ch07** | Object-Oriented Basics (Classes, Statics) | [Notes](docs/java/ch07_oop.md) | [Code](src/javakb/ch07_oop) | `[x]` |
-| **ch08** | Inheritance (Subclassing, Super, Overrides)| [Notes](docs/java/ch08_inheritance.md) | [Code](src/javakb/ch08_inheritance) | `[x]` |
-| **ch09** | Abstraction (Interfaces, Polymorphism) | [Notes](docs/java/ch09_abstraction.md) | [Code](src/javakb/ch09_abstraction) | `[x]` |
-| **ch10** | Encapsulation (Accessors, Data Hiding) | [Notes](docs/java/ch10_encapsulation.md) | [Code](src/javakb/ch10_encapsulation) | `[x]` |
-| **ch11** | Object Relationships (Aggregation, Comp) | [Notes](docs/java/ch11_relationships.md) | [Code](src/javakb/ch11_relationships) | `[x]` |
+| **ch02** | Control Flow (If-Else, Switch) | [Notes](docs/java/ch02_controlflow.md) | [Code](src/javakb/ch02_controlflow) | `[ ]` |
+| **ch03** | Loops (While, For, Nested) | [Notes](docs/java/ch03_loops.md) | [Code](src/javakb/ch03_loops) | `[ ]` |
+| **ch04** | Methods (Scope, Overloading, Varargs) | [Notes](docs/java/ch04_methods.md) | [Code](src/javakb/ch04_methods) | `[ ]` |
+| **ch05** | Arrays (1D, 2D, Linear Search) | [Notes](docs/java/ch05_arrays.md) | [Code](src/javakb/ch05_arrays) | `[ ]` |
+| **ch06** | Strings (Manipulation, Builders) | [Notes](docs/java/ch06_strings.md) | [Code](src/javakb/ch06_strings) | `[ ]` |
+| **ch07** | Object-Oriented Basics (Classes, Statics) | [Notes](docs/java/ch07_oop.md) | [Code](src/javakb/ch07_oop) | `[ ]` |
+| **ch08** | Inheritance (Subclassing, Super, Overrides)| [Notes](docs/java/ch08_inheritance.md) | [Code](src/javakb/ch08_inheritance) | `[ ]` |
+| **ch09** | Abstraction (Interfaces, Polymorphism) | [Notes](docs/java/ch09_abstraction.md) | [Code](src/javakb/ch09_abstraction) | `[ ]` |
+| **ch10** | Encapsulation (Accessors, Data Hiding) | [Notes](docs/java/ch10_encapsulation.md) | [Code](src/javakb/ch10_encapsulation) | `[ ]` |
+| **ch11** | Object Relationships (Aggregation, Comp) | [Notes](docs/java/ch11_relationships.md) | [Code](src/javakb/ch11_relationships) | `[ ]` |
 | **ch12** | Collections Framework (Lists, Maps) | [Notes](docs/java/ch12_collections.md) | [Code](src/javakb/ch12_collections) | `[ ]` |
 | **ch13** | Exception Handling (Try-Catch, Custom) | [Notes](docs/java/ch13_exceptions.md) | [Code](src/javakb/ch13_exceptions) | `[ ]` |
 | **ch14** | File Handling (Streams, Reader/Writer) | [Notes](docs/java/ch14_filehandling.md) | [Code](src/javakb/ch14_filehandling) | `[ ]` |
