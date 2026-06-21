@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3f2b3a65fd5d3659",
+        "id": "339432b72e3de1be",
         "type": "tabs",
         "children": [
           {
-            "id": "6d0837f537fd1166",
+            "id": "7941f9cb0e194b02",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "docs/dsa/space-time complexity/recursive_time_space_complexity.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "recursive_time_space_complexity"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"tags\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,6 +87,7 @@
       {
         "id": "8660625ea1027759",
         "type": "tabs",
+        "dimension": 60.68075117370893,
         "children": [
           {
             "id": "59d4e6795fdd5d1c",
@@ -90,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/com/learning/java/ch01_basics/README.md",
+                "file": "docs/java/ch01_basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for ch01_basics"
             }
           },
           {
@@ -152,21 +157,38 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/com/learning/java/ch01_basics/README.md",
-                "followCursor": false,
+                "file": "docs/dsa/space-time complexity/recursive_time_space_complexity.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of recursive_time_space_complexity"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "b00d2267d8eab33a",
+        "type": "tabs",
+        "dimension": 39.31924882629108,
+        "children": [
+          {
+            "id": "c29348449c626e3e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,13 +198,25 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "mindelixir-mindmap:Open as mind map": false
     }
   },
-  "active": "6d0837f537fd1166",
+  "active": "7941f9cb0e194b02",
   "lastOpenFiles": [
-    "docs/java/ch02_controlflow.md",
+    "Excalidraw/Drawing 2026-06-21 12.28.48.excalidraw.md",
     "docs/java/ch01_basics.md",
+    "docs/dsa/space-time complexity/time_space_complexity.md",
+    "docs/dsa/space-time complexity/recursive_time_space_complexity.md",
+    "docs/dsa/space-time complexity",
+    "Untitled 1.base",
+    "Untitled.base",
+    "Untitled.canvas",
+    "Excalidraw",
+    "docs/java/ch03_loops.md",
+    "docs/java/ch04_methods.md",
+    "docs/java/ch02_controlflow.md",
     "[[.md",
     "ch02_control_flow.md",
     "projects/ch01_basics",
