@@ -1,3 +1,10 @@
 {
-  "promptDelete": false
+  "promptDelete": false,
+  "userIgnoreFilters": [
+    "src/",
+    "out/",
+    "projects/",
+    "out/",
+    "src/"
+  ]
 }
