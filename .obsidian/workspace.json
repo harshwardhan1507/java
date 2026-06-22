@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "docs/java/ch12_collections/01_list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "01_list"
             }
           }
         ]
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "docs/java/ch12_collections/01_list.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of 01_list"
             }
           }
         ],
@@ -205,10 +205,10 @@
   },
   "active": "7941f9cb0e194b02",
   "lastOpenFiles": [
+    "README.md",
     "docs/java/projects/advanced.md",
     "docs/java/projects/beginner.md",
     "docs/java/projects/intermediate.md",
-    "README.md",
     "docs/java/ch03_loops.md",
     "docs/dsa/space-time complexity/recursive_time_space_complexity.md",
     "Excalidraw/Drawing 2026-06-21 12.28.48.excalidraw.md",
